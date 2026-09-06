@@ -15,4 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_poplar.mk
+    $(LOCAL_DIR)/lineage_poplar.mk \
+    $(LOCAL_DIR)/qassa_poplar.mk
