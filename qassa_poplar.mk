@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# QASSA GApps variant (built-in vendor/gapps)
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
